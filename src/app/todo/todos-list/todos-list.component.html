@@ -1,0 +1,4 @@
+<ul class="todo-list">
+    <!-- These are here just to show the structure of the list items -->
+    <app-todo-item [Todo]="item" [Id]="i" *ngFor="let item of todolist | filter:filtroSelect; let i=index"></app-todo-item>
+</ul>
